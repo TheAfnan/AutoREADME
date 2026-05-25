@@ -1,0 +1,92 @@
+===============================================
+  DevDoc AI - Quick Start (Copy & Paste)
+===============================================
+
+STEP 1: Install Dependencies
+=============================
+
+Terminal 1 - Backend:
+  cd backend
+  python -m venv venv
+  # Windows: venv\Scripts\activate
+  # Mac/Linux: source venv/bin/activate
+  pip install -r requirements.txt
+  
+Terminal 2 - Frontend:
+  cd frontend
+  npm install
+
+STEP 2: Configure Backend
+==========================
+
+  cd backend
+  cp .env.example .env
+  # Edit .env and add your API key:
+  # OPENAI_API_KEY=sk_...
+  # or
+  # GEMINI_API_KEY=AI...
+
+STEP 3: Start Servers
+=====================
+
+Terminal 1 - Backend:
+  cd backend
+  source venv/bin/activate  # (or venv\Scripts\activate on Windows)
+  python app.py
+  # ✅ Server runs on http://localhost:5000
+
+Terminal 2 - Frontend:
+  cd frontend
+  npm run dev
+  # ✅ Server runs on http://localhost:5173
+
+STEP 4: Open in Browser
+=======================
+  
+  http://localhost:5173/
+  
+  Click "Get Started" and generate your first README!
+
+===============================================
+  Documentation
+===============================================
+
+- README.md        → Project overview
+- SETUP_GUIDE.md   → Detailed setup
+- ARCHITECTURE.md  → Technical details
+- FEATURES.md      → Feature tracker
+- DEVELOPMENT.md   → Dev notes (frontend & backend)
+
+===============================================
+  API Endpoints (for testing)
+===============================================
+
+POST /api/generate
+POST /api/analyze-repo
+POST /api/resume-description
+GET /api/download
+GET /health
+
+===============================================
+  Troubleshooting
+===============================================
+
+Can't start backend?
+  → Check Python 3.9+
+  → Activate venv first
+  → pip install -r requirements.txt
+
+Can't start frontend?
+  → node -v (need 16+)
+  → npm install
+  → rm -rf node_modules, then npm install again
+
+API key errors?
+  → Get OpenAI: https://platform.openai.com/api-keys
+  → Get Gemini: https://makersuite.google.com/
+  → Add to backend/.env
+  → Restart backend
+
+===============================================
+  Ready to Code! 🚀
+===============================================
