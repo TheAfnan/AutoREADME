@@ -1,82 +1,65 @@
-# DevDoc AI — AI Powered README & Documentation Generator
+# AutoREADME — Intelligent README Generator for GitHub
 
-A modern, production-grade web application that leverages artificial intelligence to automatically generate professional README files, documentation, and project guides for GitHub repositories.
+AutoREADME is an AI-powered web application that automatically generates professional README files for GitHub repositories. Simply enter your project details or GitHub URL, and get a well-structured, production-ready README in seconds.
 
-## 🎯 Project Overview
+## 🎯 Overview
 
-**DevDoc AI** combines the power of:
-- **Notion AI** for intelligent content generation
-- **GitHub API** for repository analysis
-- **Modern web stack** for seamless user experience
-- **LLM Integration** (OpenAI/Gemini) for professional documentation
-
-Transform your GitHub repositories into comprehensive, professional documentation in seconds.
+AutoREADME helps developers quickly create quality documentation by:
+- **Analyzing GitHub repositories** to understand project structure and tech stack
+- **Generating professional READMEs** with proper formatting and sections
+- **Providing a live editor** to customize and refine the generated content
+- **Supporting multiple templates** for different project types
 
 ---
 
 ## ✨ Key Features
 
-### 1. **AI README Generation**
-- Intelligent README.md generation from project details
-- Contextual content based on tech stack and framework
-- Professional formatting with markdown
+### 1. **Smart README Generation**
+- Enter project details or paste GitHub URL
+- AI analyzes code and generates comprehensive README
+- Professional formatting with all essential sections
 
-### 2. **GitHub Repository Analyzer**
-- Paste GitHub URL → Automatic project analysis
-- Detects:
-  - Programming language
-  - Framework/dependencies
-  - Project structure
-  - Package scripts
-  - APIs and endpoints
+### 2. **Repository Analysis**
+- Automatically detect tech stack and dependencies
+- Analyze project structure and purpose
+- Extract package scripts and configurations
 
-### 3. **Live Markdown Editor**
-- Split-screen editor with real-time preview
-- Syntax highlighting
-- One-click copy/download
-- Markdown live rendering
+### 3. **Live Editor & Preview**
+- Edit generated README in real-time
+- Split-screen view with live markdown preview
+- Easily copy to clipboard or download as .md file
 
-### 4. **Multiple README Templates**
-- Open Source projects
-- Portfolio projects
-- API documentation
-- AI/ML projects
-- Hackathon submissions
-- And more...
+### 4. **Template Selection**
+- Choose from multiple README templates
+- Each template tailored for different project types
+- Easy to customize based on your needs
 
-### 5. **Project Explanations**
-- "Explain Like Beginner" mode
-- Resume-friendly descriptions
-- LinkedIn post generation
-- Architecture overviews
+### 5. **Flexible Generation**
+- Fill in project details manually
+- Auto-detect from GitHub repositories
+- Save and manage multiple generated READMEs
 
-### 6. **Advanced Features**
-- 🏷️ GitHub badges generator
-- 📂 Folder structure visualization
-- 🚀 Deployment guides (Vercel, Render, Docker)
-- 🔐 Environment variables detection
-- 🌍 Multi-language support (English, Hindi, French)
-- 🔗 One-click GitHub push
-- ⭐ README quality scoring
+### 6. **Additional Features**
+- Download generated README as markdown file
+- Copy to clipboard for quick sharing
+- History of previously generated READMEs
+- Clean, intuitive user interface
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **React 18** + **Vite** — Fast build tool & framework
-- **Tailwind CSS** — Utility-first styling
-- **React Markdown** — Markdown rendering
-- **Framer Motion** — Smooth animations
-- **Lucide React** — Beautiful icons
-- **Axios** — HTTP client
+- **React 18** + **Vite** — Modern frontend build
+- **Tailwind CSS** — Responsive UI styling
+- **Lucide React** — Consistent icon set
+- **React Router** — Client-side routing
 
 ### Backend
-- **Python Flask** — Lightweight web framework
-- **OpenAI API / Gemini API** — AI generation
-- **GitHub API** — Repository analysis
-- **GitPython** — Git operations
-- **Flask-CORS** — Cross-origin support
+- **Python Flask** — RESTful API server
+- **OpenAI / Gemini API** — AI-powered text generation
+- **GitHub API** — Repository information fetching
+- **Flask-CORS** — Cross-origin request handling
 
 ### Deployment
 - **Frontend:** Vercel (recommended)
@@ -87,7 +70,7 @@ Transform your GitHub repositories into comprehensive, professional documentatio
 ## 📁 Project Structure
 
 ```
-devdoc-ai/
+AutoREADME/
 │
 ├── frontend/                    # React + Vite frontend
 │   ├── src/
@@ -298,37 +281,30 @@ pip install google-generativeai
 ## 🎯 MVP (Minimum Viable Product)
 
 Core features to launch:
-- [x] README generator from project details
-- [x] GitHub repository analyzer
-- [x] Markdown preview
-- [x] Download README.md
-- [x] AI generation integration
+- [x] README generation from project details
+- [x] GitHub repository URL analysis
+- [x] Live markdown editor and preview
+- [x] Download/copy generated README
+- [x] Multiple templates support
 
 ---
 
-## 🚀 Future Enhancements
+## 🚀 Planned Features
 
-- 🤖 AI Architecture Diagram Generator
-- 🎤 Voice input for project explanation
-- 🧩 Chrome extension for GitHub
-- 👥 Team collaboration features
-- 🔍 Swagger/OpenAPI generation
-- 📊 ER diagram generator
-- 💬 AI chatbot for repositories
-- 🎓 Code documentation generator
-- 📈 README analytics & insights
-- 🔄 Batch README generation
+- GitHub OAuth authentication
+- Direct push to GitHub repository
+- Additional README templates
+- Dark mode support
+- Advanced customization options
 
 ---
 
-## 📊 Target Users
+## � Who is this for?
 
-- 👨‍💻 Developers building open-source projects
-- 🎓 Students and educators
-- 🚀 Startup founders
-- 👨‍🤝‍👨 Hackathon participants
-- 💼 Freelancers and contractors
-- 📚 Technical writers
+- Developers working on open-source projects
+- Students learning to document code
+- Developers contributing to public repositories
+- Anyone needing professional documentation quickly
 
 ---
 
@@ -353,7 +329,7 @@ VITE_GITHUB_CLIENT_ID=your_client_id
 
 ## 📝 Resume Description
 
-> "Developed DevDoc AI, an AI-powered documentation generator that analyzes GitHub repositories and automatically generates professional README files using Flask, React, OpenAI API, and GitHub API integration. Features real-time markdown editing, multi-template support, and deployment guides for 5+ platforms."
+> "Built AutoREADME, an AI-powered README generator that analyzes GitHub repositories and creates professional documentation. Built with React, Flask, and OpenAI API integration."
 
 ---
 
@@ -378,8 +354,8 @@ We welcome contributions! Please:
 
 For issues, questions, or suggestions:
 - Open a GitHub issue
-- Email: support@devdocai.com
+- Open an issue on GitHub
 
 ---
 
-Made with ❤️ by the DevDoc AI team
+Made with ❤️ by the AutoREADME team
